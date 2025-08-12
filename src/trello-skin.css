@@ -1,47 +1,301 @@
 :root {
-  /* Trello-adjacent tokens */
-  --ds-surface: #fff;
-  --ds-surface-overlay: #fff;
+  /* Trello-like design tokens */
+  --ds-surface: #ffffff;
+  --ds-surface-overlay: #ffffff;
   --ds-text: #172b4d;
-  --ds-text-subtle: #44546f;
-  --ds-text-inverse: #fff;
-  --ds-border: #091e4224;
-  --ds-link: #0c66e4;
-  --ds-background-neutral: #091e420f;
-  --ds-background-neutral-hovered: #091e4224;
-  --ds-background-neutral-pressed: #091e424f;
-  --ds-border-radius-100: 3px;
-  --ds-border-radius-200: 8px;
+  --ds-text-subtle: #5e6c84;
+  --ds-text-subtlest: #6b778c;
+  --ds-text-inverse: #ffffff;
+  --ds-border: #dfe1e6;
+  --ds-border-focused: #4c9aff;
+  --ds-link: #0052cc;
+  --ds-background-neutral: #f4f5f7;
+  --ds-background-neutral-hovered: #ebecf0;
+  --ds-background-neutral-pressed: #dfe1e6;
+  --ds-background-selected: #deebff;
+  --ds-background-brand: #0052cc;
+  --ds-background-danger: #de350b;
+  --ds-shadow-card: 0 1px 0 rgba(9, 30, 66, 0.25);
+  --ds-shadow-card-hovered: 0 2px 4px rgba(9, 30, 66, 0.15);
+  --ds-shadow-overlay: 0 8px 16px -4px rgba(9, 30, 66, 0.25), 0 0 0 1px rgba(9, 30, 66, 0.08);
+  --ds-border-radius: 3px;
+  --ds-border-radius-large: 8px;
 }
 
-html, body {
-  font: normal 14px/20px -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Noto Sans","Ubuntu","Droid Sans","Helvetica Neue",sans-serif;
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
   color: var(--ds-text);
+  background: var(--ds-background-neutral);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Trello-like scrollbar */
+/* Custom scrollbar */
 .u-fancy-scrollbar {
   -webkit-overflow-scrolling: touch;
-  scrollbar-color: var(--ds-background-neutral-hovered) var(--ds-background-neutral);
+  scrollbar-color: var(--ds-background-neutral-pressed) transparent;
   scrollbar-width: thin;
 }
-.u-fancy-scrollbar::-webkit-scrollbar { height: 8px; width: 8px; }
-.u-fancy-scrollbar::-webkit-scrollbar-track-piece { background: var(--ds-background-neutral); }
-.u-fancy-scrollbar::-webkit-scrollbar-thumb { background: var(--ds-background-neutral-hovered); border-radius: var(--ds-border-radius-100); }
 
-/* Column & card chrome */
-.tl-column {
-  background: #ebecf0;
-  border-radius: 8px;
-  padding: 8px;
+.u-fancy-scrollbar::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
 }
+
+.u-fancy-scrollbar::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.u-fancy-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.u-fancy-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--ds-background-neutral-pressed);
+  border-radius: var(--ds-border-radius);
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.u-fancy-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #b3bac5;
+  background-clip: content-box;
+}
+
+/* Trello Column Styling */
+.tl-column {
+  background: var(--ds-background-neutral);
+  border-radius: var(--ds-border-radius-large);
+  padding: 8px;
+  box-shadow: 0 1px 1px rgba(9, 30, 66, 0.25);
+  min-height: 200px;
+}
+
+/* Trello Card Styling */
 .tl-card {
   background: var(--ds-surface);
-  border-radius: 8px;
-  box-shadow: 0 1px 0 rgba(9,30,66,.25);
+  border-radius: var(--ds-border-radius);
+  box-shadow: var(--ds-shadow-card);
+  cursor: pointer;
+  transition: all 0.1s ease;
+  position: relative;
+  overflow: hidden;
 }
-.tl-card:hover { box-shadow: 0 2px 0 rgba(9,30,66,.3); }
+
+.tl-card:hover {
+  box-shadow: var(--ds-shadow-card-hovered);
+  transform: translateY(-1px);
+}
+
+.tl-card.dragging {
+  box-shadow: var(--ds-shadow-overlay);
+  transform: rotate(5deg) scale(1.02);
+  z-index: 1000;
+}
+
+/* Input Styling */
 .tl-input {
-  border: 1px solid #dfe1e6;
-  border-radius: 3px;
+  border: 2px solid var(--ds-border);
+  border-radius: var(--ds-border-radius);
+  background: var(--ds-surface);
+  color: var(--ds-text);
+  transition: border-color 0.1s ease, box-shadow 0.1s ease;
+}
+
+.tl-input:focus {
+  border-color: var(--ds-border-focused);
+  box-shadow: 0 0 0 1px var(--ds-border-focused);
+  outline: none;
+}
+
+.tl-input::placeholder {
+  color: var(--ds-text-subtlest);
+}
+
+/* Button Styles */
+.btn-primary {
+  background: var(--ds-background-brand);
+  color: var(--ds-text-inverse);
+  border: none;
+  border-radius: var(--ds-border-radius);
+  padding: 8px 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.btn-primary:hover {
+  background: #005a9e;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background: var(--ds-background-neutral-hovered);
+  color: var(--ds-text);
+  border: 1px solid var(--ds-border);
+  border-radius: var(--ds-border-radius);
+  padding: 8px 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.btn-secondary:hover {
+  background: var(--ds-background-neutral-pressed);
+  border-color: var(--ds-text-subtlest);
+}
+
+.btn-danger {
+  background: var(--ds-background-danger);
+  color: var(--ds-text-inverse);
+  border: none;
+  border-radius: var(--ds-border-radius);
+  padding: 8px 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.btn-danger:hover {
+  background: #bf2600;
+  transform: translateY(-1px);
+}
+
+/* Label Colors */
+.label-blue { background-color: #0079bf; color: white; }
+.label-green { background-color: #61bd4f; color: white; }
+.label-orange { background-color: #ff9f1a; color: white; }
+.label-red { background-color: #eb5a46; color: white; }
+.label-purple { background-color: #c377e0; color: white; }
+.label-pink { background-color: #ff78cb; color: white; }
+.label-lime { background-color: #51e898; color: white; }
+.label-sky { background-color: #00c2e0; color: white; }
+.label-gray { background-color: #c4c9cc; color: white; }
+
+/* Animation classes */
+.fade-in {
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.slide-up {
+  animation: slideUp 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Text truncation utility */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Focus styles */
+.focus-ring:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--ds-border-focused);
+}
+
+/* Loading spinner */
+.spinner {
+  border: 2px solid var(--ds-background-neutral);
+  border-top: 2px solid var(--ds-background-brand);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .tl-column {
+    width: 280px !important;
+  }
+
+  .board-header {
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;
+  }
+
+  .board-actions {
+    justify-content: center;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ds-surface: #1d2125;
+    --ds-text: #b6c2cf;
+    --ds-text-subtle: #9fadbc;
+    --ds-text-subtlest: #8c9bab;
+    --ds-border: #454f59;
+    --ds-background-neutral: #22272b;
+    --ds-background-neutral-hovered: #2c3e50;
+    --ds-background-neutral-pressed: #364455;
+  }
+
+  .tl-column {
+    background: var(--ds-background-neutral);
+  }
+
+  .tl-card {
+    background: var(--ds-surface);
+    color: var(--ds-text);
+  }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  .tl-card {
+    border: 2px solid var(--ds-text);
+  }
+
+  .btn-primary,
+  .btn-secondary,
+  .btn-danger {
+    border: 2px solid var(--ds-text);
+  }
 }

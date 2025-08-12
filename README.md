@@ -1,4 +1,4 @@
-# Trello‑lite (No Dates)
+# ClassTutor Content Plan)
 
 A minimal, polished Kanban board with:
 - Columns & cards
