@@ -324,8 +324,8 @@ export default function App() {
       <div className="mx-auto max-w-[1400px] p-6">
         <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
           <div>
-            <h1 className="text-2xl font-bold">Trello‑lite (No Dates)</h1>
-            <p className="text-sm" style={{ color: "#475569" }}>A clean Kanban board — no timestamps, no activity feed.</p>
+            <h1 className="text-2xl font-bold">ClassTutor Content Plan</h1>
+            <p className="text-sm" style={{ color: "#475569" }}>August to November</p>
           </div>
           <div className="flex flex-wrap items-center gap-2">
             <TextInput value={query} onChange={setQuery} placeholder="Search cards…" className="w-56" />
