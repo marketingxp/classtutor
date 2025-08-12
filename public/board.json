@@ -1,0 +1,539 @@
+{
+  "columns": [
+    {
+      "id": "col_Goals_-_Strategy",
+      "title": "Goals / Strategy",
+      "cardIds": [
+        "689b3d6d987ab4d603e69e17",
+        "689b3da4970320e753bc1cb4"
+      ]
+    },
+    {
+      "id": "col_Content_Ideas",
+      "title": "Content Ideas",
+      "cardIds": [
+        "689b3e1ec486b0da7484555f",
+        "689b3e232b3977f74f2641a5",
+        "689b3e32117904e2fc40c9cd",
+        "689b3e36ed157e73e69d5cfa",
+        "689b3e3bc5661cb7da7a7188",
+        "689b3e40c7ef68bbf9c213d5"
+      ]
+    },
+    {
+      "id": "col_Completed_Aug-Nov_2025",
+      "title": "Completed Aug-Nov 2025",
+      "cardIds": [
+        "689b3f36361b22365bd846a1",
+        "689b40f3faff9f4abe644dfa"
+      ]
+    },
+    {
+      "id": "col_Ready_to_Publish",
+      "title": "Ready to Publish",
+      "cardIds": []
+    },
+    {
+      "id": "col_Scheduled-Publish",
+      "title": "Scheduled/Publish",
+      "cardIds": [
+        "689b31343c78b66a62ca195b",
+        "689b313728fcb4a1813bb9a6",
+        "689b313a6bfda4fa589c21d9",
+        "689b313ca90db086b60d5bea",
+        "689b313f577c1ad1b4f505ca",
+        "689b3142dc65982094e9382f",
+        "689b31454a07fe91ef064822",
+        "689b3147b977d8ed8af65fa4",
+        "689b314b185513cfa201f577",
+        "689b314d458edef09a8a56da",
+        "689b3150c56a2cb17028332a",
+        "689b315421fd990b01796b54",
+        "689b3157310f60d51eaf5505",
+        "689b315b1a3732555383194a",
+        "689b315fdc9692d0d44f7728",
+        "689b3163d6e9826b7aa4447b",
+        "689b3168b9d1330bdd518a7f",
+        "689b316c1c44afc29ea7b9d9",
+        "689b3170a1c210a771e0abbb",
+        "689b3176166b9fa8bd9bda0a",
+        "689b318254118e9a8a66c4f7",
+        "689b3197abea64e28337fb36",
+        "689b319c00b51ce04fe7aadc",
+        "689b31cb93dd6e4f1f28c171",
+        "689b31d0b21e0f1f5c8de7aa",
+        "689b31d456f0449e9765d298",
+        "689b31d8811d78eac3cd2bea",
+        "689b31deb689580f6b7e687e",
+        "689b31e2ef8a6fe959ba6ade",
+        "689b31e6a3c4b69c505e934e",
+        "689b31ea4af8fca83fdb33f0",
+        "689b31ee035cff7431522480",
+        "689b31f1a75ee8c1f57a48b1",
+        "689b31f6615aa6649e7ab65d",
+        "689b31f80bdb89597ced9492",
+        "689b31fdda1ad495c5ddeebb",
+        "689b3201c2d5acaa87901726",
+        "689b3204b6862ac0c807d750",
+        "689b3209706d69666e49656a",
+        "689b320d0e4a741642e3adf3",
+        "689b32109d066ccccc03edc8",
+        "689b3214c932b15846529a6f",
+        "689b3217572f397bc500297e",
+        "689b321ce994dcc548acdb1d",
+        "689b3221d4d6ed05646f3782",
+        "689b32254c302207d6231b2e",
+        "689b322948e3f0dfbef6830c",
+        "689b322f1902420c5615b2d1",
+        "689b323299ba50d9617a1acd",
+        "689b3235f419f94dd67b4ba1",
+        "689b3239ce414bac1e18001b",
+        "689b323c54c0f21fcd36ceb8",
+        "689b3240b21e0f1f5c8f7fc0"
+      ]
+    }
+  ],
+  "cards": {
+    "689b40f3faff9f4abe644dfa": {
+      "id": "689b40f3faff9f4abe644dfa",
+      "title": "Title: GCSE Science Revision: A Parent's Complete Guide",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3f36361b22365bd846a1": {
+      "id": "689b3f36361b22365bd846a1",
+      "title": "Title: Proven Ways to Boost Your Child\u2019s Maths Confidence at Home",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3e40c7ef68bbf9c213d5": {
+      "id": "689b3e40c7ef68bbf9c213d5",
+      "title": "The Ultimate A-Level Revision Plan for Busy Students",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3e3bc5661cb7da7a7188": {
+      "id": "689b3e3bc5661cb7da7a7188",
+      "title": "7 English Writing Skills Every GCSE Student Must Master",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3e36ed157e73e69d5cfa": {
+      "id": "689b3e36ed157e73e69d5cfa",
+      "title": "How Online Group Tuition Helps Your Child Learn Faster",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3e32117904e2fc40c9cd": {
+      "id": "689b3e32117904e2fc40c9cd",
+      "title": "The Parent\u2019s Guide to Key Stage 2 SATs Success",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3e232b3977f74f2641a5": {
+      "id": "689b3e232b3977f74f2641a5",
+      "title": "GCSE Science Revision: A Parent\u2019s Complete Guide",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3e1ec486b0da7484555f": {
+      "id": "689b3e1ec486b0da7484555f",
+      "title": "10 Proven Ways to Boost Your Child\u2019s Maths Confidence at Home",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3da4970320e753bc1cb4": {
+      "id": "689b3da4970320e753bc1cb4",
+      "title": "Content pillars",
+      "description": "1. **Study Support & Tips** \u2013 practical strategies for learning success.\n2. **Exam Preparation** \u2013 focused guidance for GCSE & A-Level parents/students.\n3. **Subject-Specific Help** \u2013 SEO-rich \u201chow to\u201d and \u201cimprove in\u2026\u201d guides.\n4. **Parent Support** \u2013 helping parents support children\u2019s learning at home.\n5. **EdTech & Online Learning** \u2013 explaining benefits of group online tuition and tech tools.",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3d6d987ab4d603e69e17": {
+      "id": "689b3d6d987ab4d603e69e17",
+      "title": "Primary objectives:",
+      "description": "- Capture search intent from parents looking for help in core subjects.\n- Build trust and authority by giving genuinely helpful, clear, and friendly content.\n- Increase brand visibility so ClassTutor is remembered when tutoring is needed.",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3240b21e0f1f5c8f7fc0": {
+      "id": "689b3240b21e0f1f5c8f7fc0",
+      "title": "Creative Cultural Activities for Kids",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b323c54c0f21fcd36ceb8": {
+      "id": "689b323c54c0f21fcd36ceb8",
+      "title": "Crafting an Outstanding Personal Statement",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3239ce414bac1e18001b": {
+      "id": "689b3239ce414bac1e18001b",
+      "title": "Top 5 Tips to Start the School Year Right",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3235f419f94dd67b4ba1": {
+      "id": "689b3235f419f94dd67b4ba1",
+      "title": "Balancing School Work with Extracurricular Activities",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b323299ba50d9617a1acd": {
+      "id": "689b323299ba50d9617a1acd",
+      "title": "Facing School Anxiety: How Online Group Tutoring Can Help",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b322f1902420c5615b2d1": {
+      "id": "689b322f1902420c5615b2d1",
+      "title": "Facing School Anxiety: How Online Group Tutoring Can Help",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b322948e3f0dfbef6830c": {
+      "id": "689b322948e3f0dfbef6830c",
+      "title": "Your Kids and the Internet: An In-Depth Guide to Online Safety",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b32254c302207d6231b2e": {
+      "id": "689b32254c302207d6231b2e",
+      "title": "The Spooky Science of Halloween: Fun Experiments for Kids",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3221d4d6ed05646f3782": {
+      "id": "689b3221d4d6ed05646f3782",
+      "title": "The History and Science Behind Bonfire Night",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b321ce994dcc548acdb1d": {
+      "id": "689b321ce994dcc548acdb1d",
+      "title": "Maximising Study Time in Autumn",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3217572f397bc500297e": {
+      "id": "689b3217572f397bc500297e",
+      "title": "Autumn and Winter Wildlife in the UK: Integrating Nature into Learning",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3214c932b15846529a6f": {
+      "id": "689b3214c932b15846529a6f",
+      "title": "Preparing for the Winter Holidays: Strategies to Balance Rest and Revision",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b32109d066ccccc03edc8": {
+      "id": "689b32109d066ccccc03edc8",
+      "title": "New Year, New Academic Goals: Setting and Achieving Targets with ClassTutor",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b320d0e4a741642e3adf3": {
+      "id": "689b320d0e4a741642e3adf3",
+      "title": "From refugee to GCSE success!",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3209706d69666e49656a": {
+      "id": "689b3209706d69666e49656a",
+      "title": "Yusuf\u2019s Triumph: From Adversity to Academic Excellence!",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3204b6862ac0c807d750": {
+      "id": "689b3204b6862ac0c807d750",
+      "title": "Success! Imad\u2019s 4-year Mathematical Journey with ClassTutor",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3201c2d5acaa87901726": {
+      "id": "689b3201c2d5acaa87901726",
+      "title": "Nurturing Excellence: Syed Amaan\u2019s Educational Journey with Us",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b31fdda1ad495c5ddeebb": {
+      "id": "689b31fdda1ad495c5ddeebb",
+      "title": "Arifah\u2019s Inspiring Journey to Academic Excellence",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b31f80bdb89597ced9492": {
+      "id": "689b31f80bdb89597ced9492",
+      "title": "Empowering Success: Mahdi\u2019s Remarkable Journey from grade 5s to 7s in one year!",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b31f6615aa6649e7ab65d": {
+      "id": "689b31f6615aa6649e7ab65d",
+      "title": "Inayah\u2019s Inspiring Academic Rise",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b31f1a75ee8c1f57a48b1": {
+      "id": "689b31f1a75ee8c1f57a48b1",
+      "title": "Group lessons vs 1-1",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b31ee035cff7431522480": {
+      "id": "689b31ee035cff7431522480",
+      "title": "GCSE Preparation Schedule for Year 10 Students",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b31ea4af8fca83fdb33f0": {
+      "id": "689b31ea4af8fca83fdb33f0",
+      "title": "GCSE Preparation Schedule for Year 11 Students",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b31e6a3c4b69c505e934e": {
+      "id": "689b31e6a3c4b69c505e934e",
+      "title": "Understanding the 11+ Exam in the UK",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b31e2ef8a6fe959ba6ade": {
+      "id": "689b31e2ef8a6fe959ba6ade",
+      "title": "Essential 11+ Exam Equipment",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b31deb689580f6b7e687e": {
+      "id": "689b31deb689580f6b7e687e",
+      "title": "Mastering Your Exam Technique",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b31d8811d78eac3cd2bea": {
+      "id": "689b31d8811d78eac3cd2bea",
+      "title": "The Benefits of Screen Time in Education",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b31d456f0449e9765d298": {
+      "id": "689b31d456f0449e9765d298",
+      "title": "How to Maximise Holiday Time and Revision",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b31d0b21e0f1f5c8de7aa": {
+      "id": "689b31d0b21e0f1f5c8de7aa",
+      "title": "How Can We Use Travel as a Learning Experience?",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b31cb93dd6e4f1f28c171": {
+      "id": "689b31cb93dd6e4f1f28c171",
+      "title": "Keeping Kids Engaged and Ready for School",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b319c00b51ce04fe7aadc": {
+      "id": "689b319c00b51ce04fe7aadc",
+      "title": "Supporting Your Child After Their Disappointing GCSE Results",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3197abea64e28337fb36": {
+      "id": "689b3197abea64e28337fb36",
+      "title": "Breaking Down the Costs and Benefits of ClassTutor Tuition",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b318254118e9a8a66c4f7": {
+      "id": "689b318254118e9a8a66c4f7",
+      "title": "How ClassTutor Helped Me Achieve Grade 9s in Nine Subjects!",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3176166b9fa8bd9bda0a": {
+      "id": "689b3176166b9fa8bd9bda0a",
+      "title": "How ClassTutor Helped Me Achieve Top Grades in My GCSEs",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3170a1c210a771e0abbb": {
+      "id": "689b3170a1c210a771e0abbb",
+      "title": "How to Succeed in the 11+ Exam",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b316c1c44afc29ea7b9d9": {
+      "id": "689b316c1c44afc29ea7b9d9",
+      "title": "An Educational Partnership for Your Child\u2019s Success",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3168b9d1330bdd518a7f": {
+      "id": "689b3168b9d1330bdd518a7f",
+      "title": "Decoding 11+ Results: What Your Child\u2019s Scores Mean and What to Do Next",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3163d6e9826b7aa4447b": {
+      "id": "689b3163d6e9826b7aa4447b",
+      "title": "How to Apply to Oxbridge or Redbrick Universities Successfully",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b315fdc9692d0d44f7728": {
+      "id": "689b315fdc9692d0d44f7728",
+      "title": "How to Craft the Perfect Personal Statement for Oxbridge or Redbrick Universities",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b315b1a3732555383194a": {
+      "id": "689b315b1a3732555383194a",
+      "title": "How to Ace University Entrance Exams: TSA, LNAT & More",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3157310f60d51eaf5505": {
+      "id": "689b3157310f60d51eaf5505",
+      "title": "Maximising Your UCAS Application: From References to Course Choices",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b315421fd990b01796b54": {
+      "id": "689b315421fd990b01796b54",
+      "title": "Does My Child Really Need a Tutor?",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3150c56a2cb17028332a": {
+      "id": "689b3150c56a2cb17028332a",
+      "title": "Helping Your Child Make Friends at a New School",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b314d458edef09a8a56da": {
+      "id": "689b314d458edef09a8a56da",
+      "title": "Tailored Guidance for Every Student",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b314b185513cfa201f577": {
+      "id": "689b314b185513cfa201f577",
+      "title": "Top Tips for Helping Your Child Prepare for Mock Exams",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3147b977d8ed8af65fa4": {
+      "id": "689b3147b977d8ed8af65fa4",
+      "title": "Discover Personalised Online Tutoring with ClassTutor",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b31454a07fe91ef064822": {
+      "id": "689b31454a07fe91ef064822",
+      "title": "When Your Child Resists Lessons: Strategies for Parent",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b3142dc65982094e9382f": {
+      "id": "689b3142dc65982094e9382f",
+      "title": "Meet Zhara: Supporting Your Child\u2019s Success at ClassTutor",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b313f577c1ad1b4f505ca": {
+      "id": "689b313f577c1ad1b4f505ca",
+      "title": "The Best Revision Techniques to Boost Your Exam Success",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b313ca90db086b60d5bea": {
+      "id": "689b313ca90db086b60d5bea",
+      "title": "When Should I Start Revising for GCSEs? Key Milestones for Every Year Group",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b313a6bfda4fa589c21d9": {
+      "id": "689b313a6bfda4fa589c21d9",
+      "title": "Discover Personalised Online Tutoring with ClassTutor",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b313728fcb4a1813bb9a6": {
+      "id": "689b313728fcb4a1813bb9a6",
+      "title": "When Your Child Resists Lessons: Strategies for Parent",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    },
+    "689b31343c78b66a62ca195b": {
+      "id": "689b31343c78b66a62ca195b",
+      "title": "The Cognitive Benefits of Playing Video Games",
+      "description": "",
+      "labels": [],
+      "checklist": []
+    }
+  }
+}
